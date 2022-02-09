@@ -1,14 +1,6 @@
 var elements = document.getElementsByClassName("drum");
 var audio = null;
 var currentSong;
-// song array
-// var edSheeranSong = ['sounds/Edsheeran-song-1.mp3','sounds/Edsheeran-song-2.mp3','sounds/Edsheeran-song-3.mp3','sounds/Edsheeran-song-4.mp3','sounds/Edsheeran-song-5.mp3'];
-// var weekndSong = ['sounds/weeknd-song-1.mp3','sounds/weeknd-song-2.mp3','sounds/weeknd-song-3.mp3','sounds/weeknd-song-4.mp3','sounds/weeknd-song-5.mp3'];
-// var bazziSong = ['sounds/bazzi-song-1.mp3','sounds/bazzi-song-2.mp3','sounds/bazzi-song-3.mp3','sounds/bazzi-song-4.mp3','sounds/bazzi-song-5.mp3'];
-// var justinBieberSong = ['sounds/justin-song-1.mp3','sounds/justin-song-2.mp3','sounds/justin-song-3.mp3','sounds/justin-song-4.mp3','sounds/justin-song-5.mp3'];
-// var zaynSong = ['sounds/zayn-song-1.mp3','sounds/zayn-song-2.mp3','sounds/zayn-song-3.mp3','sounds/zayn-song-4.mp3','sounds/zayn-song-5.mp3'];
-// var deruloSong = ['sounds/derulo-song-1.mp3','sounds/derulo-song-2.mp3','sounds/derulo-song-3.mp3','sounds/derulo-song-4.mp3','sounds/derulo-song-5.mp3'];
-// var brunoMarsSong = ['sounds/bruno-song-1.mp3','sounds/bruno-song-2.mp3','sounds/bruno-song-3.mp3','sounds/bruno-song-4.mp3','sounds/bruno-song-5.mp3'];
 
 for (var i = 0; i < elements.length; i++) {
     
