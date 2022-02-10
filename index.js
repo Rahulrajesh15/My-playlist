@@ -47,7 +47,7 @@ for (var i = 0; i < elements.length; i++) {
             var randomNumber = Math.random();
             randomNumber = randomNumber * 5;
             randomNumber = Math.floor(randomNumber) + 1;
-            currentSong = "justin-songs/justin-song-"+randomNumber+".mp3";
+            currentSong = "justin-songs/Justin-song-"+randomNumber+".mp3";
             audio = new Audio(currentSong);
             audio.play();
         }
